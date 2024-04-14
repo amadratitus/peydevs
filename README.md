@@ -1,6 +1,6 @@
 # PeyDevs WordPress Plugin
 Open Source Plugin for WordPress Devs
-<img width="958" alt="Screenshot (598)" src="https://github.com/amadratitus/peydevs/assets/117981104/1b797899-5114-4839-830a-7671485d74bd">
+<img width="956" alt="Screenshot (599)" src="https://github.com/amadratitus/peydevs/assets/117981104/334ce17d-9582-4060-bd9d-22ea02fe5789">
 
 Welcome to the official repository of the PeyDevs WordPress plugin! This plugin adds functionality to remind clients to pay their developers.
 
