@@ -1,9 +1,13 @@
 <?php
 /*
-Plugin Name: PeyDevs
-Description: This plugin adds functionality to remind clients to pay their developers.
+Plugin Name: PayDev
+Plugin URI: https://amadratitus.github.io/peydev/
+Description: This plugin adds functionality to remind users to pay their developers.
 Version: 1.0
 Author: Amadra Titus
+Author URI: https://github.com/amadratitus/
+Text Domain: pay-dev
+License: GPLv2 or later
 */
 
 // Add plugin menu item

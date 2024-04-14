@@ -1,5 +1,5 @@
 === PeyDevs WordPress Plugin ===
-Contributors: Amadra Titus, Kajja Owen
+Contributors: Chris Titus, Kajja Owen
 Tags: reminder, payment, developer, client, invoicing
 Requires at least: 4.0
 Tested up to: 5.9
@@ -20,7 +20,7 @@ Main features:
 - Option to activate and deactivate.
 - Support to the latest WordPress theme.
 
-For more information, visit [plugin homepage](https://example.com).
+For more information, visit [Plugin Homepage](https://amadratitus.github.io/peydev/).
 
 == Installation ==
 
