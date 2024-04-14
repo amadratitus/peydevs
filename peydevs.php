@@ -107,7 +107,7 @@ function peydevs_custom_css() {
     <style>
         .client-message {
             background: #F6F5F2;
-            color: red;
+            color: linear-gradient(90deg, rgba(255,255,255,1) 0%, rgba(244,16,5,1) 46%, rgba(255,255,255,1) 100%);
             font-family: Poppins;
             font-weight: bold;
             font-size: 6vw;
