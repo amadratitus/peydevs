@@ -27,7 +27,7 @@ add_action('admin_init', 'peydevs_register_settings');
 function peydevs_settings_page() {
     ?>
     <div class="wrap">
-        <h2>peydevs Settings</h2>
+        <h2>PeyDevs Settings</h2>
         <form method="post" action="options.php">
             <?php settings_fields('peydevs_options_group'); ?>
             <?php do_settings_sections('peydevs_options_group'); ?>
