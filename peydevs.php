@@ -12,7 +12,7 @@ License: GPLv2 or later
 
 // Add plugin menu item
 function peydevs_menu() {
-    add_menu_page('peydevs Settings', 'peydevs', 'manage_options', 'peydevs_settings', 'peydevs_settings_page', 'dashicons-money');
+    add_menu_page('PeyDevs Settings', 'PeyDevs', 'manage_options', 'peydevs_settings', 'peydevs_settings_page', 'dashicons-money');
 }
 add_action('admin_menu', 'peydevs_menu');
 
@@ -107,7 +107,7 @@ function peydevs_custom_css() {
     <style>
         .client-message {
             background: #F6F5F2;
-            color: linear-gradient(90deg, rgba(255,255,255,1) 0%, rgba(244,16,5,1) 46%, rgba(255,255,255,1) 100%);
+            color: red;
             font-family: Poppins;
             font-weight: bold;
             font-size: 6vw;
