@@ -90,7 +90,7 @@ function peydevs_custom_js() {
 		                
 		                // Append footer
 		                var footerYear = '<?php echo date("Y"); ?>';
-		                var footer = '<footer>&copy; ' + footerYear + ' PeyDev By <a href="#">PeyDev Inc</a></footer>';
+		                var footer = '<footer>&copy; ' + footerYear + ' PeyDev By <a href="https://amadratitus.github.io/peydev/" target="_blank">PeyDev Inc</a></footer>';
 		                $('.client-message').append(footer);
 		            }, 5000);
 		        }
@@ -106,7 +106,7 @@ function peydevs_custom_css() {
     ?>
     <style>
         .client-message {
-            background: #EEEEEE;
+            background: #F6F5F2;
             color: red;
             font-family: Poppins;
             font-weight: bold;
@@ -131,12 +131,16 @@ function peydevs_custom_css() {
 		    position: absolute;
 		    bottom: 0;
 		    width: 100%;
-		    color: green;
+		    color: #5BBCFF;
 		    text-align: center;
 		    justify-content: center;
-		    font-size: 13px;
+		    font-size: 12px;
 		    padding-bottom: 5px;
 		}
+        .client-message a {
+           color: #074173;
+            font-size: 11px;
+        }
     </style>
     <?php
 }
