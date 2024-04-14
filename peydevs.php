@@ -113,7 +113,7 @@ function peydevs_custom_css() {
 
             font-family: Poppins !important;
             font-weight: bold !important;
-            font-size: 8vw !important;
+            font-size: 6vw !important;
             display: none;
             position: fixed;
             width: 100%;
@@ -126,7 +126,7 @@ function peydevs_custom_css() {
         .client-message p {
             font-family: Poppins !important;
             font-weight: bold !important;
-            font-size: 8vw !important;
+            font-size: 6vw !important;
             height: 100%;
             display: flex;
             align-items: center;
