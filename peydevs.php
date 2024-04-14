@@ -1,12 +1,12 @@
 <?php
 /*
-Plugin Name: PayDev
+Plugin Name: PeyDev
 Plugin URI: https://amadratitus.github.io/peydev/
-Description: This plugin adds functionality to remind users to pay their developers.
+Description: This plugin adds functionality to remind clients to pay their developers.
 Version: 1.0
 Author: Amadra Titus
 Author URI: https://github.com/amadratitus/
-Text Domain: pay-dev
+Text Domain: pey-devs
 License: GPLv2 or later
 */
 
@@ -106,20 +106,27 @@ function peydevs_custom_css() {
     ?>
     <style>
         .client-message {
-            background: #F6F5F2;
-            color: red;
-            font-family: Poppins;
-            font-weight: bold;
-            font-size: 6vw;
+            background: linear-gradient(to right, #f32170, 
+                    #ff6b08, #cf23cf, #eedd44); 
+            -webkit-text-fill-color: transparent; 
+            -webkit-background-clip: text;
+
+            font-family: Poppins !important;
+            font-weight: bold !important;
+            font-size: 8vw !important;
             display: none;
             position: fixed;
             width: 100%;
             height: 100%;
             top: 0;
             left: 0;
-            padding: 5%;
+            padding: 5% !important;
         }
+
         .client-message p {
+            font-family: Poppins !important;
+            font-weight: bold !important;
+            font-size: 8vw !important;
             height: 100%;
             display: flex;
             align-items: center;
@@ -127,20 +134,27 @@ function peydevs_custom_css() {
             text-align: center;
             line-height: 1.3;
         }
+
         .client-message footer {
-		    position: absolute;
-		    bottom: 0;
-		    width: 100%;
-		    color: #5BBCFF;
-		    text-align: center;
-		    justify-content: center;
-		    font-size: 12px;
-		    padding-bottom: 5px;
-		}
+            background: linear-gradient(to right, #074173, 
+                    #5BBCFF, #074173, #5BBCFF); 
+            -webkit-text-fill-color: transparent; 
+            -webkit-background-clip: text;
+            position: absolute;
+            bottom: 0;
+            width: 100%;
+            color: #5BBCFF;
+            text-align: center;
+            justify-content: center;
+            font-size: 12px;
+            padding-bottom: 5px;
+        }
+
         .client-message a {
-           color: #074173;
+            color: #074173;
             font-size: 11px;
         }
+
     </style>
     <?php
 }
